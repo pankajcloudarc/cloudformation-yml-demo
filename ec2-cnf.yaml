@@ -52,3 +52,5 @@ Resources:
             VolumeSize: 8
             VolumeType: "gp3"
       AvailabilityZone: !Select [ 0, !GetAZs '' ]
+
+      
